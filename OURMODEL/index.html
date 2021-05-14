@@ -482,9 +482,10 @@
 
     <a name="style_control.reference"><h3>4.1 Copy style from reference</h3></a>
     <div class="h3_explainer">
-        We select random audio samples from the test set and we generate the video for each audio multiple times while changing the reference style input.<br>
-        The ground truth on the top row is used as the reference style input for the model.<br>
-        We use the embedding id of the audio clip, independently of the reference video.<br>
+        We select random audio samples from the test set and we generate the video for each audio multiple times while changing the reference video used to generate a style input
+        input.<br>
+        The ground truth on the top row is the reference video input of the model.<br>
+        We use the episode id of the audio clip, independently of the reference video.<br>
         We use the FAR model to generate these samples.
     </div>
 
